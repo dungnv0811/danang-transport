@@ -1,0 +1,28 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[3]!./src/components/styles/pricing.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.pricing-heading {
+    font-weight: bold;
+    color: #e33a77;
+}
+.pricing-sub-heading {
+    text-align: justify;
+    line-height: 140% !important;
+    font-size: 11pt !important;
+}
+
+.green-text {
+    color: rgba(40, 170, 0, 1);
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[3]!./src/components/styles/page.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.map, .contact-info {
+    flex: 1; /* Each child will take equal width */
+    display: flex;
+    flex-direction: column; /* Aligns content of each column vertically */
+    justify-content: flex-start; /* Aligns content to the top */
+    border: 1px solid #ccc; /* Optional border for visualization */
+}
+
